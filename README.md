@@ -1,69 +1,43 @@
-# Task-6-Password-Strength-Testing-and-Evaluation
+# Password Strength Checker
 
-🔐 Password Strength Testing and Evaluation
-📌 Overview
-This project evaluates the strength of a given password based on multiple security criteria such as length, complexity, and unpredictability. The goal is to help users identify weak passwords and improve them to meet cybersecurity best practices.
+This tool helps evaluate the strength of a password using the online service [PasswordMeter](https://passwordmeter.com/). It provides feedback on password complexity and suggestions for improvement.
 
-🛠 Tools & Technologies Used
-Python 3.x — For implementing the password strength evaluation logic
+## Objective
+To test the strength of various passwords and understand the factors that contribute to strong password creation.
 
-Regular Expressions (re) — For pattern matching (uppercase, lowercase, digits, special characters)
+## Tool Used
+- [PasswordMeter](https://passwordmeter.com/)
 
-Terminal/Command Prompt — For running the script
+## Steps to Use the Tool
+1. Open your web browser and visit: [https://passwordmeter.com/](https://passwordmeter.com/).
+2. In the input box labeled **"Enter Password"**, type the password you want to test.
+3. Observe the **score** and **complexity rating** displayed.
+4. Review the **positive feedback** (green section) for strengths in your password.
+5. Check the **negative feedback** (red section) for weaknesses and suggestions for improvement.
+6. Modify your password based on the suggestions and retest until you achieve a desired strength rating.
 
-🎯 Objectives
-Identify weak, medium, and strong passwords
+## Example Usage
+- **Weak Password Example:**  
+  Password: `12345`  
+  Score: Low  
+  Complexity: Very Weak  
+  Weaknesses: Too short, only numbers, no mixed case or special characters.
 
-Suggest improvements for weak passwords
+- **Strong Password Example:**  
+  Password: `S@kshi_2025!Secure`  
+  Score: High  
+  Complexity: Strong  
+  Strengths: Long length, mixed case letters, numbers, and special characters.
 
-Educate users on secure password creation practices
+## Result
+Using PasswordMeter, you can quickly analyze and improve passwords to meet strong security standards. A strong password typically includes:
+- At least 12 characters  
+- A mix of uppercase and lowercase letters  
+- Numbers  
+- Special symbols  
 
-📋 Features
-✔ Checks for minimum length requirement
-✔ Detects presence of uppercase, lowercase, digits, and special characters
-✔ Rates password strength as Weak, Moderate, or Strong
-✔ Suggests improvements for insecure passwords
+**Remember:** Avoid using personal information or dictionary words in your passwords.
 
-🚀 How to Run
-Clone this repository
-
-bash
-Copy
-Edit
-git clone https://github.com/YourUsername/Password-Strength-Checker.git
-cd Password-Strength-Checker
-Run the script
-
-bash
-Copy
-Edit
-python password_checker.py
-Enter a password when prompted, and view the strength evaluation along with suggestions.
-
-📊 Example Output
-pgsql
-Copy
-Edit
-Enter your password: MyP@ssw0rd
-Password Strength: Strong ✅
-Suggestions: No changes needed — your password is secure.
-diff
-Copy
-Edit
-Enter your password: hello123
-Password Strength: Weak ❌
-Suggestions:
-- Add at least one uppercase letter
-- Add special characters
-- Increase length to 12+ characters
-🛡 Recommendations for Strong Passwords
-Use 12+ characters
-
-Include uppercase + lowercase letters
-
-Add numbers and special characters (!, @, #, $, %, etc.)
-
-Avoid dictionary words and personal information
 
 <img width="1891" height="1062" alt="Screenshot 2025-08-12 142422" src="https://github.com/user-attachments/assets/995f5382-2df8-4d02-81a8-8c04e7af4704" />
 
